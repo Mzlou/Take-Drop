@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto" sans-serif;
+  background-color: #e5e5e5;
+  display: flex;
+  padding-top: 5rem;
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.col-header {
+  width: 150px;
+  box-shadow: 4px 4px 9px rgba(198, 198, 198, 0.36);
+  border-radius: 20px;
+  padding: 0.8rem 1rem;
+  color: #fff;
+}
+
+.item {
+  width: 150px;
+  height: 66px;
+  border: linear-gradient(90deg, #86cb94 0%, #c8c805 179.25%);
+  box-shadow: 4px 4px 7px rgba(96, 96, 96, 0.36);
+  border-radius: 20px;
+  background: linear-gradient(90deg, #a4ebb2 0%, #f3f30b 179.25%);
+  padding: 0.8rem 1rem;
+  color: #828282;
+  text-align: center;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
+
+.placeholder {
+  width: 150px;
+  height: 66px;
+}
+
+.start {
+  background: linear-gradient(90deg, #edbde2 0%, #229efd 179.25%);
+}
+
+.progress {
+  background: linear-gradient(90deg, #978efb 0%, #8fe4d9 100%);
+}
+
+.done {
+  background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
+}
+
+.hold {
+  border: 3px solid rgb(128, 218, 204);
+}
+
+.hide {
+  display: none;
+}
+
+.hovered {
+  border-top: 3px solid rgb(128, 218, 204);
+  border-radius: 20px;
+}
