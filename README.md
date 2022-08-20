@@ -1,2 +1,3 @@
-# Take-Drop
-It should come in handy
+# Take-Drop;
+It should come in handy;
+Stack: JavaScript, HTML, CSS;
